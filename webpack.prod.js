@@ -19,8 +19,8 @@ module.exports = merge(common,{
   plugins:[
     new UglifyjsWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename:'[name][hash:8].css',
-      chunkFilename: '[id].css'
+      filename:'css/[name][hash:8].css',
+      chunkFilename: 'css/[id].css'
     })
   ]
 })
