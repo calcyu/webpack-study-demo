@@ -1,6 +1,8 @@
 import dayjs from 'dayjs'
 import './style.css'
 import imgPic from './timg.gif'
+import './sass/main.sass'
+
 
 
 function component(){
